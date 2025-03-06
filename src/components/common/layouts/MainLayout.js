@@ -9,6 +9,7 @@ function MainLayout(props) {
 
     useEffect(() => {
         console.log('hey')
+        console.log('qowildi')
         // if (!user) {
         //     router.replace('/register')
         // }
