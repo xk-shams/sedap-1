@@ -4,7 +4,6 @@ import { useRouter } from "next/router";
 
 function Navigation(props) {
   const router = useRouter();
-  console.log("router", router.asPath);
   return (
     <div>
       <div
