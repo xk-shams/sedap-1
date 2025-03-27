@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Dashboard from "@/pages";
 
 function Navigation(props) {
   const router = useRouter();
@@ -33,6 +34,7 @@ function Navigation(props) {
         <Link href="#">Chat</Link>
         <Link href="#">Wallet</Link>
       </div>
+      <Dashboard />
     </div>
   );
 }
